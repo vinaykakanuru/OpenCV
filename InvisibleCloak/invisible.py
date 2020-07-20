@@ -1,6 +1,11 @@
-import cv2
-import numpy as np
-import time
+# import the necessary packages
+try:
+    import cv2
+    import numpy as np
+    import time
+    print('All modules are loaded..!')
+except Exception as e:
+    print('The following modules are missing {}'.format(e))
 
 # to use laptop default camera for video capturing pass '0' otherwise '1'
 video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
@@ -45,6 +50,7 @@ while(video.isOpened()):
     if key == ord('q'):
         break
 
+# destroying all windows
 video.release()
 cv2.destroyAllWindows()
 

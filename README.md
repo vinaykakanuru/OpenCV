@@ -5,7 +5,9 @@
 
 • It will give you simple Knowledge on how to recognise faces from the given image and from live web cam.
 
-• This Repo also consists of InvisibleCloak source code build using __OpenCV__ and gives you confidence about trying new things.
+• Repository consists of InvisibleCloak source code build using __OpenCV__ and gives you confidence about trying new things.
+
+• It also consists of Object detection source code build using __MobileNetSSD_deploy.caffeModel__ and __OpenCV__.
 
 • Please do ⭐ the repository, if it helped you in anyway.
 

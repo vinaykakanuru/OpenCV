@@ -1,4 +1,9 @@
-import cv2
+# import the necessary packages
+try:
+    import cv2
+    print('All modules are loaded..!')
+except Exception as e:
+    print('The following modules are missing {}'.format(e))
 
 # to detect faces we need a classifier from cv2 site-packages
 face_data = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
